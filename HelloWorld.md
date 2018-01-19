@@ -14,6 +14,7 @@ If the following list describes you, then you are in the right place:
 
 The problem is to write a program which can tell classify the given Iris plant to it's respective species. 
 But our ambitions are more modest--we're going to classify Iris flowers based solely on the length and width of their *sepals* and *petals*. For fact, the Iris family has about 300 species but right now we would deal with three of them. 
+![alt text](samples.png)
 
 - Iris Setosa
 - Iris Virginica
