@@ -14,7 +14,7 @@ If the following list describes you, then you are in the right place:
 
 The problem is to write a program which can tell classify the given Iris plant to it's respective species. 
 But our ambitions are more modest--we're going to classify Iris flowers based solely on the length and width of their *sepals* and *petals*. For fact, the Iris family has about 300 species but right now we would deal with three of them. 
-![alt text](samples.png)
+![alt text](MachineLearning/samples.png)
 
 - Iris Setosa
 - Iris Virginica
@@ -24,7 +24,7 @@ Okay, we are clear with the Problem Statement, so now you don't know anythin abo
 The difference is that, now we don't tell everything (like we used to do in *classical programs*) to the program. Infact, we don't tell anything to the program about the flower. Infact we don't tell it anything about the flower. We give it some related data of Iris Flower and train it on the basis of it and later we feed it with some input and ask the program to tell us that is it the flower we are looking for.
 For a start, we already have a well-labeled dataset of 120 Iris flower of these three different species with the sepal and petal measurements. The dataset is avaiable already in the repo, and you could easily find over the internet.
 Following is a sample dataset.
-![alt text](Table.png)
+![alt text](MachineLearning/Table.png)
 
 Before getting our hands dirty, let's get introduced with some common terms:
 - The last column (species) is called the label; the first four columns are called features. Features are characteristics of an example, while the label is the thing we're trying to predict.
