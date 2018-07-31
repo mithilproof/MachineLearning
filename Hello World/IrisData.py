@@ -81,9 +81,12 @@ def csv_input_fn(csv_path, batch_size):
 
     # Shuffle, repeat, and batch the examples.
     dataset = dataset.shuffle(1000).repeat().batch(batch_size)
+	
 
     # Return the read end of the pipeline.
 return dataset.make_one_shot_iterator().get_next()
+
+
 
 
 
